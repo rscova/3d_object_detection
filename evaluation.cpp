@@ -30,13 +30,13 @@ int main(int argc, char** argv)
   bool show_params = true;
   bool show_viewers = false;
 
-  string desc_type = DESC_SHOT_COLOR;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH,DESC_CVFH,DESC_SPIN_IMAGE;
-  vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT};
+  string desc_type = DESC_FPFH;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH,DESC_CVFH,DESC_SPIN_IMAGE;
+  //vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT};
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
-  /*vector <string> v_keypoints_list = {KP_SIFT};
-  vector<double> v_kpts_radius_search = {0.02};
+  vector <string> v_keypoints_list = {KP_HARRIS_3D};
+  /*vector<double> v_kpts_radius_search = {0.02};
   vector<double> v_desc_radius_search = {0.1};
   vector<double> v_inliers_threshold = {0.04};*/
 
@@ -54,6 +54,7 @@ int main(int argc, char** argv)
   removeNaNFromPointCloud(*object_cloud,*object_cloud,index);
 
   double object_cloud_resolution = computeCloudResolution(object_cloud);
+  double scene_cloud_resolution = computeCloudResolution(scene_cloud);
 
   for(size_t t = 0; t < kpts_list_size; t++)
   {
@@ -68,8 +69,8 @@ int main(int argc, char** argv)
 
       Keypoints* keypoints_detector = new Keypoints(v_keypoints_list[t],v_kpts_radius_search[i],5,true);
 
-      std::thread thread1(&Keypoints::compute,keypoints_detector, std::ref(scene_cloud), std::ref(scene_keypoints));
-      std::thread thread2(&Keypoints::compute,keypoints_detector, std::ref(object_cloud), std::ref(object_keypoints));
+      std::thread thread1(&Keypoints::compute,keypoints_detector, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_cloud_resolution));
+      std::thread thread2(&Keypoints::compute,keypoints_detector, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_cloud_resolution));
       thread1.join();
       thread2.join();
 
@@ -99,6 +100,7 @@ int main(int argc, char** argv)
             CorrespondencesPtr filtered_correspondences(new Correspondences);
             Eigen::Matrix4f ransac_tf;
 
+            #ifdef SHOT
             if(desc_type == DESC_SHOT)
             {
               PointCloud<SHOT352>::Ptr scene_features (new PointCloud<SHOT352>);
@@ -144,8 +146,8 @@ int main(int argc, char** argv)
 
               delete features_descriptor;
             }
-            #ifndef SHOT
-            else if (desc_type == DESC_FPFH)
+            #else
+            if (desc_type == DESC_FPFH)
             {
               PointCloud<FPFHSignature33>::Ptr scene_features (new PointCloud<FPFHSignature33>);
               PointCloud<FPFHSignature33>::Ptr object_features (new PointCloud<FPFHSignature33>);

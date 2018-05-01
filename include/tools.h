@@ -132,6 +132,7 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
                               bool show_viewers)
 {
   features_descriptor->findCorrespondences(scene_features,object_features,correspondences);
+
   if(correspondences->size() > 2)
   {
     features_descriptor->filterCorrespondences(scene_keypoints,object_keypoints,correspondences,filtered_correspondences,ransac_tf);

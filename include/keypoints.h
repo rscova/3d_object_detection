@@ -83,7 +83,7 @@ class Keypoints
     void setMinNeighbors(double min_neighbors);
 
     // Detect
-    void compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_keypoints);
+    void compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_keypoints, double resolution);
 };
 
 Keypoints::Keypoints(string kp_type, double normal_radius_search, int min_neighbors, bool compute_with_radius)
@@ -105,7 +105,7 @@ void Keypoints::setNormalRadusSearch(double normal_radius_search){normal_radius_
 double Keypoints::getMinNeighbors(void) {return min_neighbors_;}
 void Keypoints::setMinNeighbors(double min_neighbors){min_neighbors_ = min_neighbors;}
 
-void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_keypoints)
+void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_keypoints, double resolution)
 {
   // HARRIS 3D
   if(kp_type_ == KP_HARRIS_3D)
@@ -149,10 +149,14 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
     detector.setInputCloud(cloud);
     search::KdTree<PointRGB>::Ptr kdtree(new search::KdTree<PointRGB>);
     detector.setSearchMethod(kdtree);
-    double resolution = computeCloudResolution(cloud);
     detector.setSalientRadius(6 * resolution); //Radio de busqueda de datos que destacan
     detector.setNonMaxRadius(4 * resolution); //Radio de busqueda de falsos positivos
-    detector.setMinNeighbors(min_neighbors_);
+    //detector.setMinNeighbors(min_neighbors_);
+    if(compute_with_radius_)
+      detector.setRadiusSearch(normal_radius_search_);
+    else
+      detector.setKSearch(min_neighbors_);
+
     detector.setThreshold21(0.975);
     detector.setThreshold32(0.975);
     detector.compute(*keypoints);
