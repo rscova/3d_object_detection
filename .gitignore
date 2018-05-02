@@ -2,3 +2,8 @@ build/CMakeFiles/
 build/CMakeCache.txt
 build/cmake_install.cmake
 docs/
+build/evaluation
+build/find_features
+build/find_keypoints
+build/Makefile
+build/planar_segmentation
