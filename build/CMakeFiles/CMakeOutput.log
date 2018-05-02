@@ -1,4 +1,4 @@
-The system is: Linux - 4.13.0-36-generic - x86_64
+The system is: Linux - 4.13.0-39-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df62c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_df62c.dir/build.make CMakeFiles/cmTC_df62c.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_df62c.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_df62c.dir/testCCompiler.c.o   -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_df62c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df62c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_df62c.dir/testCCompiler.c.o  -o cmTC_df62c -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8cfb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cfb5.dir/build.make CMakeFiles/cmTC_8cfb5.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cfb5.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8cfb5.dir/testCCompiler.c.o   -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8cfb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cfb5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8cfb5.dir/testCCompiler.c.o  -o cmTC_8cfb5 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9162f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9162f.dir/build.make CMakeFiles/cmTC_9162f.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_9162f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9162f.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o  -o cmTC_9162f -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_0d4e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d4e7.dir/build.make CMakeFiles/cmTC_0d4e7.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0d4e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d4e7.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o  -o cmTC_0d4e7 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9162f' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsCfRx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9162f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d4e7' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWvjR1t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0d4e7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9162f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9162f.dir/build.make CMakeFiles/cmTC_9162f.dir/build]
-  ignore line: [make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_9162f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9162f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o  -o cmTC_9162f -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0d4e7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0d4e7.dir/build.make CMakeFiles/cmTC_0d4e7.dir/build]
+  ignore line: [make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0d4e7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d4e7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o  -o cmTC_0d4e7 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9162f' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsCfRx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9162f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d4e7' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWvjR1t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0d4e7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdsCfRx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWvjR1t.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9162f] ==> ignore
+    arg [cmTC_0d4e7] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_9162f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0d4e7.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8650a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8650a.dir/build.make CMakeFiles/cmTC_8650a.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8650a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_8650a.dir/feature_tests.c.o   -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8650a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8650a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8650a.dir/feature_tests.c.o  -o cmTC_8650a -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5eb62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5eb62.dir/build.make CMakeFiles/cmTC_5eb62.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eb62.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_5eb62.dir/feature_tests.c.o   -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5eb62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eb62.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5eb62.dir/feature_tests.c.o  -o cmTC_5eb62 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14936/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14936.dir/build.make CMakeFiles/cmTC_14936.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14936.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_14936.dir/feature_tests.c.o   -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_14936
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14936.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_14936.dir/feature_tests.c.o  -o cmTC_14936 -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fbef2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbef2.dir/build.make CMakeFiles/cmTC_fbef2.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbef2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_fbef2.dir/feature_tests.c.o   -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fbef2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbef2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fbef2.dir/feature_tests.c.o  -o cmTC_fbef2 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb776/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb776.dir/build.make CMakeFiles/cmTC_bb776.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb776.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_bb776.dir/feature_tests.c.o   -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bb776
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb776.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bb776.dir/feature_tests.c.o  -o cmTC_bb776 -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a8199/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8199.dir/build.make CMakeFiles/cmTC_a8199.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8199.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a8199.dir/feature_tests.c.o   -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a8199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8199.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a8199.dir/feature_tests.c.o  -o cmTC_a8199 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6bf84/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6bf84.dir/build.make CMakeFiles/cmTC_6bf84.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6bf84.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_6bf84.dir/testCXXCompiler.cxx.o -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_6bf84
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf84.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6bf84.dir/testCXXCompiler.cxx.o  -o cmTC_6bf84 -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ca143/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca143.dir/build.make CMakeFiles/cmTC_ca143.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca143.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ca143.dir/testCXXCompiler.cxx.o -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ca143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca143.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ca143.dir/testCXXCompiler.cxx.o  -o cmTC_ca143 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2cc17/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2cc17.dir/build.make CMakeFiles/cmTC_2cc17.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2cc17
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc17.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2cc17 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_b1268/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1268.dir/build.make CMakeFiles/cmTC_b1268.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b1268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1268.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1268 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2cc17' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccozWCsr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2cc17 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1268' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUcvLa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b1268 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2cc17/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2cc17.dir/build.make CMakeFiles/cmTC_2cc17.dir/build]
-  ignore line: [make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2cc17]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc17.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2cc17 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b1268/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b1268.dir/build.make CMakeFiles/cmTC_b1268.dir/build]
+  ignore line: [make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b1268]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1268.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1268 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2cc17' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccozWCsr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2cc17 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1268' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUcvLa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b1268 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccozWCsr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceUcvLa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2cc17] ==> ignore
+    arg [cmTC_b1268] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_2cc17.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b1268.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4b68/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4b68.dir/build.make CMakeFiles/cmTC_f4b68.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4b68.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f4b68.dir/feature_tests.cxx.o -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4b68
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4b68.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f4b68.dir/feature_tests.cxx.o  -o cmTC_f4b68 -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7edbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7edbc.dir/build.make CMakeFiles/cmTC_7edbc.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7edbc.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_7edbc.dir/feature_tests.cxx.o -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7edbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7edbc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7edbc.dir/feature_tests.cxx.o  -o cmTC_7edbc -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2180f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2180f.dir/build.make CMakeFiles/cmTC_2180f.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2180f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_2180f.dir/feature_tests.cxx.o -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2180f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2180f.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2180f.dir/feature_tests.cxx.o  -o cmTC_2180f -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_01eda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01eda.dir/build.make CMakeFiles/cmTC_01eda.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01eda.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_01eda.dir/feature_tests.cxx.o -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01eda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01eda.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_01eda.dir/feature_tests.cxx.o  -o cmTC_01eda -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_270a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_270a4.dir/build.make CMakeFiles/cmTC_270a4.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_270a4.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_270a4.dir/feature_tests.cxx.o -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_270a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_270a4.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_270a4.dir/feature_tests.cxx.o  -o cmTC_270a4 -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f8f3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8f3c.dir/build.make CMakeFiles/cmTC_f8f3c.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8f3c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f8f3c.dir/feature_tests.cxx.o -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f8f3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f3c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f8f3c.dir/feature_tests.cxx.o  -o cmTC_f8f3c -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +553,30 @@ make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00b8c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00b8c.dir/build.make CMakeFiles/cmTC_00b8c.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00b8c.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_00b8c.dir/CheckIncludeFile.c.o   -c /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_00b8c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b8c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_00b8c.dir/CheckIncludeFile.c.o  -o cmTC_00b8c -rdynamic 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b06a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b06a3.dir/build.make CMakeFiles/cmTC_b06a3.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b06a3.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b06a3.dir/CheckIncludeFile.c.o   -c /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b06a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b06a3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b06a3.dir/CheckIncludeFile.c.o  -o cmTC_b06a3 -rdynamic 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
+Change Dir: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e7ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e7ad.dir/build.make CMakeFiles/cmTC_6e7ad.dir/build
-make[1]: se entra en el directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6e7ad.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6e7ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6e7ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7ad.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6e7ad.dir/CheckFunctionExists.c.o  -o cmTC_6e7ad -rdynamic -lpthread 
-make[1]: se sale del directorio '/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fedb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fedb0.dir/build.make CMakeFiles/cmTC_fedb0.dir/build
+make[1]: Entering directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fedb0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fedb0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fedb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fedb0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fedb0.dir/CheckFunctionExists.c.o  -o cmTC_fedb0 -rdynamic -lpthread 
+make[1]: Leaving directory '/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/CMakeTmp'
 
 

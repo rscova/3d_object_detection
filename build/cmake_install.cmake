@@ -1,4 +1,4 @@
-# Install script for directory: /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2
+# Install script for directory: /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2
+CMAKE_SOURCE_DIR = /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build
+CMAKE_BINARY_DIR = /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/evaluation.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/bu
 CMakeFiles/evaluation.dir/all:
 	$(MAKE) -f CMakeFiles/evaluation.dir/build.make CMakeFiles/evaluation.dir/depend
 	$(MAKE) -f CMakeFiles/evaluation.dir/build.make CMakeFiles/evaluation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles --progress-num=1,2 "Built target evaluation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles --progress-num=1,2 "Built target evaluation"
 .PHONY : CMakeFiles/evaluation.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/evaluation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/evaluation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/evaluation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles 0
 .PHONY : CMakeFiles/evaluation.dir/rule
 
 # Convenience name for target.

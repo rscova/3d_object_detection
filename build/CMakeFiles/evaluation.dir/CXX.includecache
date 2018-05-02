@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/evaluation.cpp
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/evaluation.cpp
 iostream
 -
 string
@@ -26,13 +26,13 @@ pcl/filters/filter.h
 pcl/visualization/pcl_visualizer.h
 -
 include/keypoints.h
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/keypoints.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/keypoints.h
 include/descriptors.h
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/descriptors.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/descriptors.h
 include/tools.h
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
 
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/descriptors.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/descriptors.h
 vector
 -
 string
@@ -40,7 +40,7 @@ string
 thread
 -
 tools.h
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
 pcl/common/common.h
 -
 pcl/point_types.h
@@ -106,9 +106,9 @@ pcl/features/usc.h
 pcl/features/vfh.h
 -
 
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/keypoints.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/keypoints.h
 tools.h
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
 pcl/common/common.h
 -
 pcl/point_types.h
@@ -142,7 +142,7 @@ pcl/features/normal_3d_omp.h
 pcl/features/range_image_border_extractor.h
 -
 
-/media/saul/Datos/UA/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
+/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/include/tools.h
 pcl/common/common.h
 -
 pcl/point_types.h

@@ -16,3 +16,14 @@ Usar el fichero para mostrar los resultados.
 Script automático:
 threshold de 0.02 metros (recomendado para la kinect a 1 metros de distancia)
 Ver el número de puntos de los planos para saber cuantas itraciones hacer.
+
+
+
+
+---------------------------------------------------------------------------
+Hablar de los extractores de keypoints usados
+
+Hablar de los descriptores usados:
+VFH y CVFH son descriptores globlaes, eso hace que cambie mi implementación del pipeline. Para ello debería agrupar la escena y el objeto en clusters y sobre cada cluster calcular su descriptor. 
+
+FPFH y PFH, hay que tener en cuenta que para paralelizar PFH y hacerlo más rapido hacen aproximaciones numéricas, por tanto, PFH es más robusto. Por eso voy a probar ambos para ver cuanto varía.
