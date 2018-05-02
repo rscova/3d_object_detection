@@ -55,8 +55,6 @@ http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
 #include <pcl/features/usc.h>
 #include <pcl/features/vfh.h>
 
-//#define SHOT
-
 using namespace std;
 using namespace pcl;
 
@@ -257,7 +255,7 @@ void Descriptors<FeatureType>::getCorrespondences(typename PointCloud<FeatureTyp
   descriptor_kdtree.setInputCloud(target);
   source2target.resize(source->size());
 
-  #ifdef SHOT
+  #ifdef STRUCT_DESCRIPTOR
   for (size_t i = 0; i < source->size(); ++i)
   {
     if (pcl_isfinite(source->at(i).descriptor[0]))

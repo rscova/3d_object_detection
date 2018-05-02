@@ -11,6 +11,9 @@ using namespace std;
 using namespace pcl;
 
 
+//#define STRUCT_DESCRIPTOR
+
+
 int readCloud(const PointCloud<PointXYZRGB>::Ptr& cloud, string name)
 {
   if (pcl::io::loadPCDFile<PointXYZRGB>(name, *cloud) != 0)
@@ -102,7 +105,7 @@ double cloudDistance(PointCloud<PointXYZRGB>::Ptr& input_cloud,
        }
      }
   }
-  if(distance < 10000 and distance > -10000)
+  if(distance < 10000 and distance > -10000 and npoints != 0)
       distance = sqrt(distance) / ((float) npoints);
   else
       distance = 10000;

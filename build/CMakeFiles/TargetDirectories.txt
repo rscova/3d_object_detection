@@ -1,3 +1,0 @@
-/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/edit_cache.dir
-/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/rebuild_cache.dir
-/media/saul/Datos/TERCERO/2_CUATRIMESTRE/SP/Practica/p2/build/CMakeFiles/evaluation.dir

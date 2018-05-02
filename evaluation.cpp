@@ -30,15 +30,15 @@ int main(int argc, char** argv)
   bool show_params = true;
   bool show_viewers = false;
 
-  string desc_type = DESC_FPFH;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH,DESC_CVFH,DESC_SPIN_IMAGE;
-  //vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT};
+  string desc_type = DESC_SPIN_IMAGE;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
+  vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT};
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
-  vector <string> v_keypoints_list = {KP_HARRIS_3D};
-  /*vector<double> v_kpts_radius_search = {0.02};
-  vector<double> v_desc_radius_search = {0.1};
-  vector<double> v_inliers_threshold = {0.04};*/
+  /*vector <string> v_keypoints_list = {KP_ISS};
+  vector<double> v_kpts_radius_search = {0.02};
+  vector<double> v_desc_radius_search = {0.02};
+  vector<double> v_inliers_threshold = {0.02};*/
 
   uint kpts_list_size = v_keypoints_list.size();
   uint kpts_radius_search_size = v_kpts_radius_search.size();
@@ -100,7 +100,7 @@ int main(int argc, char** argv)
             CorrespondencesPtr filtered_correspondences(new Correspondences);
             Eigen::Matrix4f ransac_tf;
 
-            #ifdef SHOT
+            #ifdef STRUCT_DESCRIPTOR
             if(desc_type == DESC_SHOT)
             {
               PointCloud<SHOT352>::Ptr scene_features (new PointCloud<SHOT352>);
@@ -146,6 +146,34 @@ int main(int argc, char** argv)
 
               delete features_descriptor;
             }
+            else if (desc_type == DESC_SHAPE_CONTEXT)
+            {
+              PointCloud<ShapeContext1980>::Ptr scene_features (new PointCloud<ShapeContext1980>);
+              PointCloud<ShapeContext1980>::Ptr object_features (new PointCloud<ShapeContext1980>);
+
+              ShapeContext3DEstimation<PointXYZRGB, PointNormal, ShapeContext1980>::Ptr feature_extractor_orig(new ShapeContext3DEstimation<PointXYZRGB, PointNormal, ShapeContext1980>);
+              feature_extractor_orig->setMinimalRadius(object_cloud_resolution / 10.0);
+              feature_extractor_orig->setPointDensityRadius(object_cloud_resolution / 5.0);
+
+              Feature<PointXYZRGB, ShapeContext1980>::Ptr feature_extractor(feature_extractor_orig);
+              Descriptors<ShapeContext1980> *features_descriptor = new Descriptors<ShapeContext1980>(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
+
+              std::thread thread1(&Descriptors<ShapeContext1980>::compute,features_descriptor, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_features));
+              std::thread thread2(&Descriptors<ShapeContext1980>::compute,features_descriptor, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_features));
+              thread1.join();
+              thread2.join();
+
+              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+                                       scene_keypoints,object_keypoints,
+                                       scene_features,object_features,
+                                       correspondences, filtered_correspondences,
+                                       ransac_tf,object_tf,object_cloud_resolution,
+                                       distance,v_kpts_radius_search[i], v_desc_radius_search[j],
+                                       v_inliers_threshold[h],show_params, show_viewers);
+
+              delete features_descriptor;
+            }
+
             #else
             if (desc_type == DESC_FPFH)
             {
@@ -169,25 +197,15 @@ int main(int argc, char** argv)
 
               delete features_descriptor;
             }
-            else if (desc_type == DESC_CVFH)
+            else if (desc_type == DESC_PFH)
             {
-              CVFHEstimation<PointXYZRGB, PointNormal, VFHSignature308>::Ptr feature_extractor_orig(
-                new CVFHEstimation<PointXYZRGB, PointNormal, VFHSignature308>);
+              PointCloud<PFHSignature125>::Ptr scene_features (new PointCloud<PFHSignature125>);
+              PointCloud<PFHSignature125>::Ptr object_features (new PointCloud<PFHSignature125>);
+              Feature<PointXYZRGB, PFHSignature125>::Ptr feature_extractor(new PFHEstimation<PointXYZRGB, PointNormal, PFHSignature125>);
+              Descriptors<PFHSignature125> *features_descriptor = new Descriptors<PFHSignature125>(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
 
-              search::KdTree<PointXYZRGB>::Ptr tree (new search::KdTree<PointXYZRGB>);
-              feature_extractor_orig->setSearchMethod (tree);
-
-              feature_extractor_orig->setRadiusSearch(v_desc_radius_search[j]);
-              feature_extractor_orig->setKSearch(0);
-
-
-              PointCloud<VFHSignature308>::Ptr scene_features (new PointCloud<VFHSignature308>);
-              PointCloud<VFHSignature308>::Ptr object_features (new PointCloud<VFHSignature308>);
-              Feature<PointXYZRGB, VFHSignature308>::Ptr feature_extractor(feature_extractor_orig);
-              Descriptors<VFHSignature308> *features_descriptor = new Descriptors<VFHSignature308>(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
-
-              std::thread thread1(&Descriptors<VFHSignature308>::compute,features_descriptor, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_features));
-              std::thread thread2(&Descriptors<VFHSignature308>::compute,features_descriptor, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_features));
+              std::thread thread1(&Descriptors<PFHSignature125>::compute,features_descriptor, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_features));
+              std::thread thread2(&Descriptors<PFHSignature125>::compute,features_descriptor, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_features));
               thread1.join();
               thread2.join();
 
@@ -199,6 +217,32 @@ int main(int argc, char** argv)
                                        distance,v_kpts_radius_search[i], v_desc_radius_search[j],
                                        v_inliers_threshold[h],show_params, show_viewers);
 
+              delete features_descriptor;
+            }
+
+            else if (desc_type == DESC_SPIN_IMAGE)
+            {
+              PointCloud<Histogram<153> >::Ptr scene_features (new PointCloud<Histogram<153> >);
+              PointCloud<Histogram<153> >::Ptr object_features (new PointCloud<Histogram<153> >);
+              Feature<PointXYZRGB, Histogram<153> >::Ptr feature_extractor(new SpinImageEstimation<PointXYZRGB, PointNormal, Histogram<153> >(8,0.5,5));
+              Descriptors<Histogram<153> > *features_descriptor = new Descriptors<Histogram<153> >(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
+
+              cout << "hola" << endl;
+
+              std::thread thread1(&Descriptors<Histogram<153> >::compute,features_descriptor, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_features));
+              std::thread thread2(&Descriptors<Histogram<153> >::compute,features_descriptor, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_features));
+              thread1.join();
+              thread2.join();
+
+
+
+              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+                                       scene_keypoints,object_keypoints,
+                                       scene_features,object_features,
+                                       correspondences, filtered_correspondences,
+                                       ransac_tf,object_tf,object_cloud_resolution,
+                                       distance,v_kpts_radius_search[i], v_desc_radius_search[j],
+                                       v_inliers_threshold[h],show_params, show_viewers);
 
               delete features_descriptor;
             }
