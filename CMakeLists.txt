@@ -20,7 +20,7 @@ set (CMAKE_CXX_FLAGS_RELEASE "-O3")
 #add_executable (find_features find_features.cpp)
 #cuda_add_executable (evaluation evaluation.cpp)
 
-add_executable (evaluation evaluation.cpp)
+add_executable (evaluation src/evaluation.cpp)
 
 #target_link_libraries (planar_segmentation ${PCL_LIBRARIES})
 #target_link_libraries (find_keypoints ${PCL_LIBRARIES})

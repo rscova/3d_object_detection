@@ -1,0 +1,32 @@
+Scripts manual para la eliminación de planos:
+
+output1.pcd:
+Eliminamos la pared del fondo. He usado un threshold de 0.1 metros ya que quiero que elimine todo lo posible puesto que los objetos están mucho más adelantados
+
+output2.pcd:
+Eliminamos la pared de la derecha. He usado un threshold de 0.05 metros
+
+output3.pcd:
+Eliminamos la mesa. He usado un threshold de 0.01 metros
+
+output4.pcd
+No eliminamos más planos ya que un threshold de 0.01 metros ya me está eliminando partes de los objetos.
+Usar el fichero para mostrar los resultados.
+
+Script automático:
+threshold de 0.02 metros (recomendado para la kinect a 1 metros de distancia)
+Ver el número de puntos de los planos para saber cuantas itraciones hacer.
+
+
+
+---------------------------------------------------------------------------
+Hablar de los extractores de keypoints usados
+
+Hablar de los descriptores usados:
+VFH y CVFH son descriptores globlaes, eso hace que cambie mi implementación del pipeline. Para ello debería agrupar la escena y el objeto en clusters y sobre cada cluster calcular su descriptor. 
+
+FPFH y PFH, hay que tener en cuenta que para paralelizar PFH y hacerlo más rapido hacen aproximaciones numéricas, por tanto, PFH es más robusto. Por eso voy a probar ambos para ver cuanto varía.
+
+
+Para shape context por ahora no funciona Uniform sampling, pero no sé porqué
+He probado a reducir las nubes de puntos y las nubes de puntos de los keypoints y no funciona bien
