@@ -2501,7 +2501,7 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000131928871269
 
 
@@ -2511,7 +2511,7 @@ Keypoints Extractor: us
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -2611,7 +2611,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -2631,7 +2631,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3011,7 +3011,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3031,7 +3031,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3051,7 +3051,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3071,7 +3071,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3111,7 +3111,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3131,7 +3131,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3151,7 +3151,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3171,7 +3171,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3191,7 +3191,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3211,7 +3211,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3231,7 +3231,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3251,7 +3251,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3271,7 +3271,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3291,7 +3291,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3511,7 +3511,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3531,7 +3531,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3551,7 +3551,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3611,7 +3611,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3631,7 +3631,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3651,7 +3651,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3671,7 +3671,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3691,7 +3691,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3711,7 +3711,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3731,7 +3731,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3751,7 +3751,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3771,7 +3771,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -3791,7 +3791,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4011,7 +4011,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4031,7 +4031,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4051,7 +4051,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4071,7 +4071,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4091,7 +4091,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4111,7 +4111,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4131,7 +4131,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4151,7 +4151,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4171,7 +4171,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4191,7 +4191,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4211,7 +4211,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4231,7 +4231,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4251,7 +4251,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4271,7 +4271,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4291,7 +4291,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4411,7 +4411,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.100000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4431,7 +4431,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.100000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4451,7 +4451,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.100000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4511,7 +4511,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4531,7 +4531,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4551,7 +4551,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4571,7 +4571,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4591,7 +4591,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4611,7 +4611,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4631,7 +4631,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4651,7 +4651,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4671,7 +4671,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4691,7 +4691,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4711,7 +4711,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4731,7 +4731,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4751,7 +4751,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4771,7 +4771,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4791,7 +4791,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4811,7 +4811,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.080000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4831,7 +4831,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.080000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4851,7 +4851,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.080000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4871,7 +4871,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.080000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4891,7 +4891,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.080000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -4983,7 +4983,7 @@ Correspondences: 2
 Not correspondences enought
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000099754506664
 
 
@@ -7490,7 +7490,7 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000104137194285
 
 
@@ -7500,7 +7500,7 @@ Keypoints Extractor: harris3D
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7520,7 +7520,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7540,7 +7540,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7560,7 +7560,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7580,7 +7580,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7600,7 +7600,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7620,7 +7620,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7640,7 +7640,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7660,7 +7660,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7680,7 +7680,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -7698,506 +7698,6 @@ Transform matrix:
 ----------------------------------------
 
 Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000333440548275
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.093475125730038  0.873597502708435  0.477587491273880 -0.092234157025814
--0.993943572044373  0.054042279720306  0.095684669911861  0.135747477412224
- 0.057779971510172 -0.483639180660248  0.873358249664307  1.072938919067383
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.020000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
 Middle distance: 0.000333440548275
@@ -8217,6 +7717,506 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.020000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.040000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000333440548275
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.093475125730038  0.873597502708435  0.477587491273880 -0.092234157025814
+-0.993943572044373  0.054042279720306  0.095684669911861  0.135747477412224
+ 0.057779971510172 -0.483639180660248  0.873358249664307  1.072938919067383
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
@@ -8500,7 +8500,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8520,7 +8520,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8540,7 +8540,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8560,7 +8560,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8580,7 +8580,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8600,7 +8600,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8620,7 +8620,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8640,7 +8640,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8660,7 +8660,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -8680,7 +8680,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9000,7 +9000,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9020,7 +9020,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9040,7 +9040,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9060,7 +9060,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9080,7 +9080,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9100,7 +9100,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9120,7 +9120,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9140,7 +9140,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9160,7 +9160,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9180,7 +9180,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -9198,506 +9198,6 @@ Transform matrix:
 ----------------------------------------
 
 Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000333440548275
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.093475125730038  0.873597502708435  0.477587491273880 -0.092234157025814
--0.993943572044373  0.054042279720306  0.095684669911861  0.135747477412224
- 0.057779971510172 -0.483639180660248  0.873358249664307  1.072938919067383
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.060000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.080000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000109672866529
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 5
-Filtered Correspondences: 4
-Transform matrix:
- 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
--0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
- 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.080000000000000
-Descriptor Radius: 0.100000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: 0.000108896310849
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
- 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
--0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
- 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
- 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.020000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.020000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.040000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.060000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.080000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
-Descriptor Radius: 0.040000000000000
-Inlier Threshold: 0.100000000000000
-Middle distance: -nan
-
-Scene input Cloud: 41637
-Object input Cloud: 620
-Scene keypoints: 559
-Object keypoints: 5
-Scene Features: 559
-Object Features: 5
-Correspondences: 4
-Filtered Correspondences: 4
-Transform matrix:
-1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
-0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
-----------------------------------------
-
-Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
 Middle distance: 0.000333440548275
@@ -9717,6 +9217,506 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.080000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000109672866529
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.458346784114838  0.883016943931580  0.100991435348988 -0.102438062429428
+-0.769757986068726  0.337596207857132  0.541757762432098  0.138631120324135
+ 0.444286972284317 -0.326051890850067  0.834445476531982  1.071798920631409
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.080000000000000
+Descriptor Radius: 0.100000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 0.000108896310849
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+ 0.451848387718201  0.886392354965210  0.100705549120903 -0.102353632450104
+-0.773891925811768  0.333318680524826  0.538507163524628  0.138621449470520
+ 0.443761616945267 -0.321258813142776  0.836581408977509  1.071768403053284
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.020000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.040000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.060000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.080000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.040000000000000
+Inlier Threshold: 0.100000000000000
+Middle distance: 10000.000000000000000
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 4
+Filtered Correspondences: 4
+Transform matrix:
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000
+0.000000000000000 0.000000000000000 0.000000000000000 1.000000000000000
+----------------------------------------
+
+Keypoints Radius: 0.100000000000000
+Descriptor Radius: 0.060000000000000
+Inlier Threshold: 0.020000000000000
+Middle distance: 0.000333440548275
+
+Scene input Cloud: 41637
+Object input Cloud: 620
+Scene keypoints: 559
+Object keypoints: 5
+Scene Features: 559
+Object Features: 5
+Correspondences: 5
+Filtered Correspondences: 4
+Transform matrix:
+ 0.093475125730038  0.873597502708435  0.477587491273880 -0.092234157025814
+-0.993943572044373  0.054042279720306  0.095684669911861  0.135747477412224
+ 0.057779971510172 -0.483639180660248  0.873358249664307  1.072938919067383
+ 0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
+----------------------------------------
+
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
@@ -9997,7 +9997,7 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000108896310849
 
 
@@ -10107,7 +10107,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10127,7 +10127,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10147,7 +10147,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10167,7 +10167,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10187,7 +10187,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10607,7 +10607,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10627,7 +10627,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10647,7 +10647,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10667,7 +10667,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -10687,7 +10687,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11107,7 +11107,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11127,7 +11127,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11147,7 +11147,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11167,7 +11167,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11187,7 +11187,7 @@ Transform matrix:
 Keypoints Radius: 0.060000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11607,7 +11607,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11627,7 +11627,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11647,7 +11647,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11667,7 +11667,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -11687,7 +11687,7 @@ Transform matrix:
 Keypoints Radius: 0.080000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12107,7 +12107,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12127,7 +12127,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12147,7 +12147,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12167,7 +12167,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12187,7 +12187,7 @@ Transform matrix:
 Keypoints Radius: 0.100000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12504,7 +12504,7 @@ Transform matrix:
  0.000000000000000  0.000000000000000  0.000000000000000  1.000000000000000
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000104904698674
 
 
@@ -12514,7 +12514,7 @@ Keypoints Extractor: sift
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12534,7 +12534,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12554,7 +12554,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12574,7 +12574,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12594,7 +12594,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.020000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12689,7 +12689,7 @@ Not correspondences enought
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12709,7 +12709,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12729,7 +12729,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12749,7 +12749,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -12769,7 +12769,7 @@ Transform matrix:
 Keypoints Radius: 0.020000000000000
 Descriptor Radius: 0.060000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13039,7 +13039,7 @@ Not correspondences enought
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.020000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13059,7 +13059,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.040000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13079,7 +13079,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.060000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13099,7 +13099,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.080000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13119,7 +13119,7 @@ Transform matrix:
 Keypoints Radius: 0.040000000000000
 Descriptor Radius: 0.040000000000000
 Inlier Threshold: 0.100000000000000
-Middle distance: -nan
+Middle distance: 10000.000000000000000
 
 Scene input Cloud: 41637
 Object input Cloud: 620
@@ -13382,7 +13382,5 @@ Scene keypoints: 84
 Object keypoints: 0
 ----------------------------------------
 
-////////////////////////////// 
+//////////////////////////////
 0.000279270345345
-
-

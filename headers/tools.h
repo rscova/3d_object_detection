@@ -181,10 +181,9 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
 
     visualization::PCLVisualizer viewer2("Filtered KeyPoints viewer");
     viewer2.setBackgroundColor (0.0, 0.0, 0.0);
-    viewer2.addPointCloud(raw_scene_cloud,"Cloud 1");
+    viewer2.addPointCloud(scene_cloud,"Cloud 1");
     visualization::PointCloudColorHandlerCustom<PointXYZRGB> single_color(object_tf, 0, 255, 0);
     viewer2.addPointCloud (object_tf, single_color, "Cloud 2");
-    //viewer2.addPointCloud (refined_object_tf, single_color, "Cloud 2");
 
     while (!viewer2.wasStopped() and !viewer3.wasStopped())
     {

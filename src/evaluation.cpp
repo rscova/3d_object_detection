@@ -28,17 +28,17 @@ int main(int argc, char** argv)
   vector<int> index;
 
   bool show_params = true;
-  bool show_viewers = false;
+  bool show_viewers = true;
 
   string desc_type = DESC_SHOT_COLOR;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
-  vector <string> v_keypoints_list = {/*KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT,*/KP_SIFT_COLOR};
+  /*vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT,KP_SIFT_COLOR};
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
-  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
-  /*vector <string> v_keypoints_list = {KP_SIFT_COLOR};
+  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};*/
+  vector <string> v_keypoints_list = {KP_SUSAN};
   vector<double> v_kpts_radius_search = {0.02};
   vector<double> v_desc_radius_search = {0.02};
-  vector<double> v_inliers_threshold = {0.04};*/
+  vector<double> v_inliers_threshold = {0.02};
 
   uint kpts_list_size = v_keypoints_list.size();
   uint kpts_radius_search_size = v_kpts_radius_search.size();
@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 
   double min_dist = 10000;
 
-  if(readCloud(raw_scene_cloud, "../scenes/snap_0point.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
+  if(readCloud(raw_scene_cloud, "../scenes/scan_2.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
     return -1;
 
   removeNaNFromPointCloud(*scene_cloud,*scene_cloud,index);
