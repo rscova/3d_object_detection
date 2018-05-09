@@ -11,7 +11,7 @@ using namespace std;
 using namespace pcl;
 
 
-//#define STRUCT_DESCRIPTOR
+#define STRUCT_DESCRIPTOR
 //#define SHAPE_CONTEXT
 
 

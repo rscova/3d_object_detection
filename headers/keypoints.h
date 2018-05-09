@@ -46,16 +46,14 @@ typedef PointCloud<PointXYZI> PointCloudXYZI;
 typedef PointCloud<PointRGB>  PointCloudRGB;
 
 // List the available keypoints
-static const string KP_AGAST_DETECTOR_7_12s  = "agast7_12s";
-static const string KP_AGAST_DETECTOR_5_8    = "agast5_8";
-static const string KP_OAST_DETECTOR_9_16    = "oast9_16";
 static const string KP_HARRIS_3D             = "harris3D";
 static const string KP_HARRIS_6D             = "harris6D";
 static const string KP_ISS                   = "iss";
-static const string KP_NARF                  = "narf";
 static const string KP_SIFT                  = "sift";
 static const string KP_SUSAN                 = "susan";
 static const string KP_UNIFORM_SAMPLING      = "us";
+static const string KP_SIFT_COLOR            = "sift_color";
+
 
 class Keypoints
 {
@@ -110,8 +108,6 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
   // HARRIS 3D
   if(kp_type_ == KP_HARRIS_3D)
   {
-    // https://github.com/PointCloudLibrary/pcl/blob/master/examples/keypoints/example_get_keypoints_indices.cpp
-    // http://docs.ros.org/hydro/api/pcl/html/tutorial_8cpp_source.html
     HarrisKeypoint3D<PointRGB, PointXYZI> harris3d;
     PointCloudXYZI::Ptr keypoints(new PointCloudXYZI);
     harris3d.setNonMaxSupression(true);
@@ -119,8 +115,6 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
     harris3d.setThreshold(1e-6);
     harris3d.compute(*keypoints);
 
-    // Extract the indices
-    //getKeypointsCloud(cloud, keypoints, cloud_keypoints);
     copyPointCloud(*keypoints,*cloud_keypoints);
     return;
   }
@@ -195,6 +189,34 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
 
     return;
   }
+  else if (kp_type_ == KP_SIFT_COLOR)
+  {
+    // Parameters for sift computation
+    const float min_scale = 0.01;
+    const int n_octaves = 3;
+    const int n_scales_per_octave = 4;
+    const float min_contrast = 0.001;
+
+    // Estimate the normals of the input cloud
+    PointCloud<PointNormal>::Ptr cloud_normals;
+    normals(cloud, cloud_normals,normal_radius_search_,min_neighbors_,compute_with_radius_);
+
+    // Estimate the sift interest points using normals values from xyz as the Intensity variants
+    SIFTKeypoint<PointXYZRGB, PointXYZRGB> sift;
+    PointCloud<PointXYZRGB>::Ptr keypoints(new PointCloud<PointXYZRGB>);
+    search::KdTree<PointXYZRGB>::Ptr tree(new search::KdTree<PointXYZRGB> ());
+    sift.setSearchMethod(tree);
+    sift.setScales(min_scale, n_octaves, n_scales_per_octave);
+    sift.setMinimumContrast(min_contrast);
+    sift.setInputCloud(cloud);
+    sift.compute(*keypoints);
+
+    // Extract the indices
+    //getKeypointsCloud(cloud, keypoints, cloud_keypoints);
+    copyPointCloud(*keypoints,*cloud_keypoints);
+
+    return;
+  }
 
   // SUSAN
   else if (kp_type_ == KP_SUSAN)
@@ -213,8 +235,6 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
   // UNIFORM_SAMPLING
   else if (kp_type_ == KP_UNIFORM_SAMPLING)
   {
-    // https://searchcode.com/codesearch/view/19993937/
-
     PointCloud<int>::Ptr keypoints_index(new PointCloud<int>);
     UniformSampling<PointRGB> uniform;
 

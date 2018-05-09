@@ -30,15 +30,15 @@ int main(int argc, char** argv)
   bool show_params = true;
   bool show_viewers = false;
 
-  string desc_type = DESC_PFH;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
-  //vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT};
-  /*vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
+  string desc_type = DESC_SHOT_COLOR;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
+  vector <string> v_keypoints_list = {/*KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT,*/KP_SIFT_COLOR};
+  vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
-  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};*/
-  vector <string> v_keypoints_list = {KP_ISS};
+  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
+  /*vector <string> v_keypoints_list = {KP_SIFT_COLOR};
   vector<double> v_kpts_radius_search = {0.02};
-  vector<double> v_desc_radius_search = {0.04};
-  vector<double> v_inliers_threshold = {0.02};
+  vector<double> v_desc_radius_search = {0.02};
+  vector<double> v_inliers_threshold = {0.04};*/
 
   uint kpts_list_size = v_keypoints_list.size();
   uint kpts_radius_search_size = v_kpts_radius_search.size();
@@ -220,6 +220,11 @@ int main(int argc, char** argv)
               PointCloud<PFHSignature125>::Ptr object_features (new PointCloud<PFHSignature125>);
               Feature<PointXYZRGB, PFHSignature125>::Ptr feature_extractor(new PFHEstimation<PointXYZRGB, PointNormal, PFHSignature125>);
               Descriptors<PFHSignature125> *features_descriptor = new Descriptors<PFHSignature125>(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
+
+              cout <<"Scene input Cloud: " << scene_cloud->size() << endl;
+              cout <<"Object input Cloud: " << object_cloud->size() << endl;
+              cout <<"Scene keypoints: " << scene_keypoints->size() << endl;
+              cout <<"Object keypoints: " << object_keypoints->size() << endl;
 
               std::thread thread1(&Descriptors<PFHSignature125>::compute,features_descriptor, std::ref(scene_cloud), std::ref(scene_keypoints), std::ref(scene_features));
               std::thread thread2(&Descriptors<PFHSignature125>::compute,features_descriptor, std::ref(object_cloud), std::ref(object_keypoints), std::ref(object_features));
