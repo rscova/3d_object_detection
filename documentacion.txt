@@ -23,10 +23,14 @@ Ver el número de puntos de los planos para saber cuantas itraciones hacer.
 Hablar de los extractores de keypoints usados
 
 Hablar de los descriptores usados:
-VFH y CVFH son descriptores globlaes, eso hace que cambie mi implementación del pipeline. Para ello debería agrupar la escena y el objeto en clusters y sobre cada cluster calcular su descriptor. 
+VFH y CVFH son descriptores globlaes, eso hace que cambie mi implementación del pipeline. Para ello debería agrupar la escena y el objeto en clusters y sobre cada cluster calcular su descriptor.
 
 FPFH y PFH, hay que tener en cuenta que para paralelizar PFH y hacerlo más rapido hacen aproximaciones numéricas, por tanto, PFH es más robusto. Por eso voy a probar ambos para ver cuanto varía.
 
 
 Para shape context por ahora no funciona Uniform sampling, pero no sé porqué
 He probado a reducir las nubes de puntos y las nubes de puntos de los keypoints y no funciona bien
+
+
+Se ven repeticiones en las graficas por los keypoints, esto es porque he usado un radio 10 veces mayor al de la resolucion
+de la nbe de puntos (0.002). Hay que tenerlo en cuenta y hacer pruebas con otras resoluciones.

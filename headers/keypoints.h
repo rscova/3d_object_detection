@@ -23,12 +23,10 @@
 
 // pcl keypoints
 #include <pcl/impl/point_types.hpp>
-#include <pcl/keypoints/agast_2d.h>
 #include <pcl/keypoints/harris_3d.h>
 #include <pcl/keypoints/harris_6d.h>
 #include <pcl/keypoints/sift_keypoint.h>
 #include <pcl/keypoints/iss_3d.h>
-#include <pcl/keypoints/narf_keypoint.h>
 #include <pcl/keypoints/susan.h>
 #include <pcl/keypoints/uniform_sampling.h>
 
@@ -145,7 +143,6 @@ void Keypoints::compute(PointCloudRGB::Ptr& cloud, PointCloudRGB::Ptr& cloud_key
     detector.setSearchMethod(kdtree);
     detector.setSalientRadius(6 * resolution); //Radio de busqueda de datos que destacan
     detector.setNonMaxRadius(4 * resolution); //Radio de busqueda de falsos positivos
-    //detector.setMinNeighbors(min_neighbors_);
     if(compute_with_radius_)
       detector.setRadiusSearch(normal_radius_search_);
     else

@@ -137,12 +137,19 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
 {
   features_descriptor->findCorrespondences(scene_features,object_features,correspondences);
 
+  PointCloud<PointXYZRGB>::Ptr refined_output(new PointCloud<PointXYZRGB>);
+  Eigen::Matrix4f refined_tf;
+
   if(correspondences->size() > 2)
   {
+    double score;
     features_descriptor->filterCorrespondences(scene_keypoints,object_keypoints,correspondences,filtered_correspondences,ransac_tf);
     transformPointCloud(*object_cloud, *object_tf, ransac_tf);
-    //features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*0.25,score);
+    features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*1.5,score);
     distance = cloudDistance(object_tf,scene_cloud,object_cloud_resolution);
+
+    //features_descriptor->icpAlignment(object_tf,scene_keypoints,refined_output, ransac_tf, refined_tf, object_cloud_resolution*1.5,score);
+    //distance = cloudDistance(refined_output,scene_cloud,object_cloud_resolution);
   }
   else
     distance = 10000;

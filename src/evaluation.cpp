@@ -35,7 +35,7 @@ int main(int argc, char** argv)
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};*/
-  vector <string> v_keypoints_list = {KP_SUSAN};
+  vector <string> v_keypoints_list = {KP_ISS};
   vector<double> v_kpts_radius_search = {0.02};
   vector<double> v_desc_radius_search = {0.02};
   vector<double> v_inliers_threshold = {0.02};
@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 
   double min_dist = 10000;
 
-  if(readCloud(raw_scene_cloud, "../scenes/scan_2.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
+  if(readCloud(raw_scene_cloud, "../scenes/snap_0point.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
     return -1;
 
   removeNaNFromPointCloud(*scene_cloud,*scene_cloud,index);
@@ -56,6 +56,8 @@ int main(int argc, char** argv)
   double object_cloud_resolution = computeCloudResolution(object_cloud);
   double scene_cloud_resolution = computeCloudResolution(scene_cloud);
 
+  //cout << computeCloudResolution(raw_scene_cloud) << endl;
+  //cout << scene_cloud_resolution << endl;
 
 
   for(size_t t = 0; t < kpts_list_size; t++)

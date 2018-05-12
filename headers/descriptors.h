@@ -332,9 +332,9 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr aligned_source,
   icp.setMaxCorrespondenceDistance (distance);
   icp.setRANSACOutlierRejectionThreshold (distance);
   //icp.setTransformationEpsilon (transformation_epsilon);
-  icp.setMaximumIterations (10000);
+  icp.setMaximumIterations (100000);
 
-  icp.setInputCloud (aligned_source); // from (1)
+  icp.setInputSource (aligned_source); // from (1)
   icp.setInputTarget (target_points);
 
   icp.align (*refined_output);
@@ -348,12 +348,12 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr& aligned_source, 
                                             Eigen::Matrix4f& initial_tf, double distance, double& score)
 {
   IterativeClosestPoint<PointRGB, PointRGB> icp;
-  icp.setMaxCorrespondenceDistance (distance);
+  //icp.setMaxCorrespondenceDistance (distance);
   icp.setRANSACOutlierRejectionThreshold (distance);
   //icp.setTransformationEpsilon (transformation_epsilon);
-  icp.setMaximumIterations (10000);
+  icp.setMaximumIterations (100000);
 
-  icp.setInputCloud (aligned_source); // from (1)
+  icp.setInputSource (aligned_source); // from (1)
   icp.setInputTarget (target_points);
 
   icp.align (*aligned_source);
