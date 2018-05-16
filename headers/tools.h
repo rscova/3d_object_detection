@@ -159,11 +159,6 @@ void computeFeatureDescriptor(string kpt_name, string ground_truth_name, Descrip
 
   if(show_params)
   {
-    /*cout << fixed << "Keypoints Radius: " << kpts_radius_search << endl;
-    cout << "Descriptor Radius: " << desc_radius_search << endl;
-    cout << "Inlier Threshold: " << inlier_threshold << endl;
-    cout << "Middle distance(mm): "   << distance*1000 << endl << endl;*/
-
     cout << kpt_name << "\t" << kpts_radius_search << "\t" << desc_radius_search << "\t";
     cout << inlier_threshold << "\t" << distance*1000 << endl;
 

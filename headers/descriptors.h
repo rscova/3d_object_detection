@@ -315,7 +315,7 @@ void Descriptors<FeatureType>::filterCorrespondences(PointCloudRGB::Ptr scene_ke
   rejector.setInputTarget(scene_keypoints);
   rejector.setInputCorrespondences(correspondences);
   rejector.setInlierThreshold(inlier_threshold_);
-  rejector.setMaximumIterations(100000);
+  rejector.setMaximumIterations(1000);
   rejector.getCorrespondences(*filtered_correspondences);
   transformation = rejector.getBestTransformation();
 }
@@ -332,7 +332,7 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr aligned_source,
   icp.setMaxCorrespondenceDistance (distance);
   icp.setRANSACOutlierRejectionThreshold (distance);
   //icp.setTransformationEpsilon (transformation_epsilon);
-  icp.setMaximumIterations (100000);
+  icp.setMaximumIterations (1000);
 
   icp.setInputSource (aligned_source); // from (1)
   icp.setInputTarget (target_points);
@@ -351,7 +351,7 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr& aligned_source, 
   //icp.setMaxCorrespondenceDistance (distance);
   icp.setRANSACOutlierRejectionThreshold (distance);
   //icp.setTransformationEpsilon (transformation_epsilon);
-  icp.setMaximumIterations (100000);
+  icp.setMaximumIterations (1000);
 
   icp.setInputSource (aligned_source); // from (1)
   icp.setInputTarget (target_points);

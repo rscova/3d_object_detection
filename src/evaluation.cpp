@@ -35,17 +35,17 @@ int main(int argc, char** argv)
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
-  // vector <string> v_keypoints_list = {KP_ISS};
+  // vector <string> v_keypoints_list = {KP_SUSAN};
   // vector<double> v_kpts_radius_search = {0.02};
   // vector<double> v_desc_radius_search = {0.02};
-  // vector<double> v_inliers_threshold = {0.02};
+  // vector<double> v_inliers_threshold = {0.04};
 
   uint kpts_list_size = v_keypoints_list.size();
   uint kpts_radius_search_size = v_kpts_radius_search.size();
   uint desc_radius_search_size = v_desc_radius_search.size();
   uint inliers_threshold_size = v_inliers_threshold.size();
 
-  double min_dist = 10000;
+  double min_dist = 10;
 
   if(readCloud(raw_scene_cloud, "../scenes/snap_0point.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
     return -1;
@@ -62,11 +62,11 @@ int main(int argc, char** argv)
   //cout << scene_cloud_resolution << endl;
 
   cout << setprecision(3) << fixed;
-  cout << "KP_Tipe" << "\t" << "KP_RAD" << "\t" << "DESC_RAD" << "\t" << "INLIER_RAD" << "\t" << "DIST(mm)" << endl;
+  //cout << "KP_Tipe" << "\t" << "KP_RAD" << "\t" << "DESC_RAD" << "\t" << "INLIER_RAD" << "\t" << "DIST(mm)" << endl;
 
   for(size_t t = 0; t < kpts_list_size; t++)
   {
-    min_dist = 10000;
+    min_dist = 10;
     //cout << "Features Descriptor: " << desc_type << setprecision(3) <<  endl;
     //cout << "Keypoints Extractor: " << v_keypoints_list[t] << endl << endl;
 
