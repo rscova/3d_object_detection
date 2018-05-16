@@ -28,17 +28,17 @@ int main(int argc, char** argv)
   vector<int> index;
 
   bool show_params = true;
-  bool show_viewers = true;
+  bool show_viewers = false;
 
   string desc_type = DESC_SHOT_COLOR;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
-  /*vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT,KP_SIFT_COLOR};
+  vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT_COLOR};
   vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
   vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
-  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};*/
-  vector <string> v_keypoints_list = {KP_ISS};
-  vector<double> v_kpts_radius_search = {0.02};
-  vector<double> v_desc_radius_search = {0.02};
-  vector<double> v_inliers_threshold = {0.02};
+  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
+  // vector <string> v_keypoints_list = {KP_ISS};
+  // vector<double> v_kpts_radius_search = {0.02};
+  // vector<double> v_desc_radius_search = {0.02};
+  // vector<double> v_inliers_threshold = {0.02};
 
   uint kpts_list_size = v_keypoints_list.size();
   uint kpts_radius_search_size = v_kpts_radius_search.size();
@@ -50,6 +50,8 @@ int main(int argc, char** argv)
   if(readCloud(raw_scene_cloud, "../scenes/snap_0point.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
     return -1;
 
+  string ground_truth_name = argv[3];
+
   removeNaNFromPointCloud(*scene_cloud,*scene_cloud,index);
   removeNaNFromPointCloud(*object_cloud,*object_cloud,index);
 
@@ -59,12 +61,14 @@ int main(int argc, char** argv)
   //cout << computeCloudResolution(raw_scene_cloud) << endl;
   //cout << scene_cloud_resolution << endl;
 
+  cout << setprecision(3) << fixed;
+  cout << "KP_Tipe" << "\t" << "KP_RAD" << "\t" << "DESC_RAD" << "\t" << "INLIER_RAD" << "\t" << "DIST(mm)" << endl;
 
   for(size_t t = 0; t < kpts_list_size; t++)
   {
     min_dist = 10000;
-    cout << "Features Descriptor: " << desc_type <<  endl;
-    cout << "Keypoints Extractor: " << v_keypoints_list[t] << endl << endl;
+    //cout << "Features Descriptor: " << desc_type << setprecision(3) <<  endl;
+    //cout << "Keypoints Extractor: " << v_keypoints_list[t] << endl << endl;
 
     for(size_t i = 0; i < kpts_radius_search_size; i++)
     {
@@ -81,28 +85,14 @@ int main(int argc, char** argv)
       removeNaNFromPointCloud(*scene_keypoints,*scene_keypoints,index);
       removeNaNFromPointCloud(*object_keypoints,*object_keypoints,index);
 
-      /*#ifdef SHAPE_CONTEXT
-      cout << "size before: " << scene_keypoints->size() << endl;
-
-      PointCloud<PointXYZRGB>::Ptr scene_ktps(new PointCloud<PointXYZRGB>);
-      Keypoints* points_reduct = new Keypoints(KP_ISS,scene_cloud_resolution*0.5,5,true);
-      points_reduct->compute(scene_keypoints,scene_ktps,scene_cloud_resolution);
-      scene_keypoints.reset(new PointCloudRGB);
-      copyPointCloud(*scene_ktps,*scene_keypoints);
-
-      cout << "size after: " << scene_keypoints->size() << endl;
-
-      delete points_reduct;
-      #endif*/
-
       if(scene_keypoints->size() <= 0 or object_keypoints->size() <= 0)
       {
-        cout << "Keypoints Radius: " << fixed << v_kpts_radius_search[i] << endl;
-        cout <<"Scene input Cloud: " << scene_cloud->size() << endl;
-        cout <<"Object input Cloud: " << object_cloud->size() << endl;
-        cout <<"Scene keypoints: " << scene_keypoints->size() << endl;
-        cout <<"Object keypoints: " << object_keypoints->size() << endl;
-        cout << "----------------------------------------" << endl << endl;
+        // cout << "Keypoints Radius: " << fixed << v_kpts_radius_search[i] << endl;
+        // cout <<"Scene input Cloud: " << scene_cloud->size() << endl;
+        // cout <<"Object input Cloud: " << object_cloud->size() << endl;
+        // cout <<"Scene keypoints: " << scene_keypoints->size() << endl;
+        // cout <<"Object keypoints: " << object_keypoints->size() << endl;
+        // cout << "----------------------------------------" << endl << endl;
       }
       else
       {
@@ -131,7 +121,7 @@ int main(int argc, char** argv)
               thread1.join();
               thread2.join();
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -154,7 +144,7 @@ int main(int argc, char** argv)
               thread1.join();
               thread2.join();
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -182,7 +172,7 @@ int main(int argc, char** argv)
               thread2.join();
 
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -206,7 +196,7 @@ int main(int argc, char** argv)
               thread1.join();
               thread2.join();
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -233,7 +223,7 @@ int main(int argc, char** argv)
               thread1.join();
               thread2.join();
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -280,7 +270,7 @@ int main(int argc, char** argv)
               Feature<PointXYZRGB, SpinImage>::Ptr feature_extractor(feature_extractor_orig);
               Descriptors<SpinImage> *features_descriptor = new Descriptors<SpinImage>(feature_extractor,v_desc_radius_search[j],5,true,v_inliers_threshold[h]);
 
-              computeFeatureDescriptor(features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
                                        scene_keypoints,object_keypoints,
                                        scene_features,object_features,
                                        correspondences, filtered_correspondences,
@@ -301,7 +291,6 @@ int main(int argc, char** argv)
         delete keypoints_detector;
       }
     }
-    cout << "////////////////////////////// " << endl << min_dist << endl << endl << endl;
   }
 
   return 0;

@@ -99,7 +99,7 @@ double cloudDistance(PointCloud<PointXYZRGB>::Ptr& input_cloud,
      vector<float> pointsSquaredDist(nneighbors);
      if ( kdtree.nearestKSearch (searchPoint, nneighbors, pointsIdx, pointsSquaredDist) > 0 )
      {
-       if(pointsSquaredDist[0] <= 1.75 * object_cloud_resolution and pointsSquaredDist[0] >= 0)
+       if(pointsSquaredDist[0] <= 1000 and pointsSquaredDist[0] >= 0)
        {
          distance += pointsSquaredDist[0];
          npoints++;
@@ -115,7 +115,7 @@ double cloudDistance(PointCloud<PointXYZRGB>::Ptr& input_cloud,
 }
 
 template<typename DescriptorType, typename CloudType>
-void computeFeatureDescriptor(DescriptorType& features_descriptor,
+void computeFeatureDescriptor(string kpt_name, string ground_truth_name, DescriptorType& features_descriptor,
                               PointCloud<PointXYZRGB>::Ptr& raw_scene_cloud,
                               PointCloud<PointXYZRGB>::Ptr& scene_cloud,
                               PointCloud<PointXYZRGB>::Ptr& object_cloud,
@@ -146,17 +146,28 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
     features_descriptor->filterCorrespondences(scene_keypoints,object_keypoints,correspondences,filtered_correspondences,ransac_tf);
     transformPointCloud(*object_cloud, *object_tf, ransac_tf);
     features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*1.5,score);
-    distance = cloudDistance(object_tf,scene_cloud,object_cloud_resolution);
 
-    //features_descriptor->icpAlignment(object_tf,scene_keypoints,refined_output, ransac_tf, refined_tf, object_cloud_resolution*1.5,score);
-    //distance = cloudDistance(refined_output,scene_cloud,object_cloud_resolution);
+
+    PointCloud<PointXYZRGB>::Ptr object_ground_truth(new PointCloud<PointXYZRGB>);
+    vector<int> index;
+    readCloud(object_ground_truth, ground_truth_name);
+    removeNaNFromPointCloud(*object_ground_truth,*object_ground_truth,index);
+    distance = cloudDistance(object_tf,object_ground_truth,object_cloud_resolution);
   }
   else
     distance = 10000;
 
   if(show_params)
   {
-    cout << "Keypoints Radius: " << fixed << kpts_radius_search << endl;
+    /*cout << fixed << "Keypoints Radius: " << kpts_radius_search << endl;
+    cout << "Descriptor Radius: " << desc_radius_search << endl;
+    cout << "Inlier Threshold: " << inlier_threshold << endl;
+    cout << "Middle distance(mm): "   << distance*1000 << endl << endl;*/
+
+    cout << kpt_name << "\t" << kpts_radius_search << "\t" << desc_radius_search << "\t";
+    cout << inlier_threshold << "\t" << distance*1000 << endl;
+
+    /*cout << "Keypoints Radius: " << fixed << kpts_radius_search << endl;
     cout << "Descriptor Radius: " << desc_radius_search << endl;
     cout << "Inlier Threshold: " << inlier_threshold << endl;
     cout << "Middle distance: "  << setprecision(15) << distance << endl << endl;
@@ -168,6 +179,7 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
     cout << "Scene Features: " << scene_features->points.size() << endl;
     cout << "Object Features: " << object_features->points.size() << endl;
     cout << "Correspondences: " << correspondences->size() << endl;
+
     if(correspondences->size() > 2)
     {
       cout << "Filtered Correspondences: " << filtered_correspondences->size() << endl;
@@ -175,7 +187,7 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
     }
     else
       cout << "Not correspondences enought" << endl;
-    cout << "----------------------------------------" << endl << endl;
+    cout << "----------------------------------------" << endl << endl;*/
   }
 
   if(show_viewers)
@@ -197,6 +209,8 @@ void computeFeatureDescriptor(DescriptorType& features_descriptor,
       viewer2.spinOnce();
       viewer3.spinOnce();
     }
+
+    //pcl::io::savePCDFileASCII ("../ground_truth/mug_ground_truth.pcd", *object_tf);
   }
 }
 
