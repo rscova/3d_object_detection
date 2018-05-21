@@ -31,26 +31,23 @@ int main(int argc, char** argv)
   bool show_viewers = false;
 
   string desc_type = DESC_SHOT_COLOR;   //DESC_SHOT, DESC_SHOT_COLOR, DESC_FPFH, DESC_PFH, DESC_SHAPE_CONTEXT, DESC_SPIN_IMAGE;
-  vector <string> v_keypoints_list = {KP_ISS, KP_UNIFORM_SAMPLING, KP_SUSAN, KP_HARRIS_3D, KP_HARRIS_6D,KP_SIFT_COLOR};
-  vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
-  vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
-  vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
-  // vector <string> v_keypoints_list = {KP_SUSAN};
+  vector <string> v_keypoints_list = {KP_ISS, /*KP_UNIFORM_SAMPLING,*/ KP_SUSAN, KP_HARRIS_3D/*, KP_HARRIS_6D, KP_SIFT_COLOR*/};
+  // vector<double> v_kpts_radius_search = {0.02,0.04,0.06,0.08,0.1};
+  // vector<double> v_desc_radius_search = {0.02,0.04,0.06,0.08,0.1};
+  // vector<double> v_inliers_threshold = {0.02,0.04,0.06,0.08,0.1};
   // vector<double> v_kpts_radius_search = {0.02};
   // vector<double> v_desc_radius_search = {0.02};
   // vector<double> v_inliers_threshold = {0.04};
 
-  uint kpts_list_size = v_keypoints_list.size();
-  uint kpts_radius_search_size = v_kpts_radius_search.size();
-  uint desc_radius_search_size = v_desc_radius_search.size();
-  uint inliers_threshold_size = v_inliers_threshold.size();
-
-  double min_dist = 10;
+  double min_dist = 1000;
 
   if(readCloud(raw_scene_cloud, "../scenes/snap_0point.pcd") != 0 or readCloud(scene_cloud, argv[1]) != 0 or readCloud(object_cloud, argv[2]) != 0)
     return -1;
 
-  string ground_truth_name = argv[3];
+  string ground_truth_name = "";
+
+  if(argc > 3)
+    ground_truth_name = argv[3];
 
   removeNaNFromPointCloud(*scene_cloud,*scene_cloud,index);
   removeNaNFromPointCloud(*object_cloud,*object_cloud,index);
@@ -58,11 +55,21 @@ int main(int argc, char** argv)
   double object_cloud_resolution = computeCloudResolution(object_cloud);
   double scene_cloud_resolution = computeCloudResolution(scene_cloud);
 
-  //cout << computeCloudResolution(raw_scene_cloud) << endl;
-  //cout << scene_cloud_resolution << endl;
+  vector<double> v_kpts_radius_search = {object_cloud_resolution*2,object_cloud_resolution*3,object_cloud_resolution*4,object_cloud_resolution*5,object_cloud_resolution*6};
+  vector<double> v_desc_radius_search = {object_cloud_resolution*2,object_cloud_resolution*3,object_cloud_resolution*4,object_cloud_resolution*5,object_cloud_resolution*6};
+  vector<double> v_inliers_threshold = {object_cloud_resolution*2,object_cloud_resolution*3,object_cloud_resolution*4,object_cloud_resolution*5,object_cloud_resolution*6};
+
+  // vector<double> v_kpts_radius_search = {scene_cloud_resolution*2};
+  // vector<double> v_desc_radius_search = {scene_cloud_resolution*2};
+  // vector<double> v_inliers_threshold = {scene_cloud_resolution*2};
+  uint kpts_list_size = v_keypoints_list.size();
+  uint kpts_radius_search_size = v_kpts_radius_search.size();
+  uint desc_radius_search_size = v_desc_radius_search.size();
+  uint inliers_threshold_size = v_inliers_threshold.size();
+
 
   cout << setprecision(3) << fixed;
-  //cout << "KP_Tipe" << "\t" << "KP_RAD" << "\t" << "DESC_RAD" << "\t" << "INLIER_RAD" << "\t" << "DIST(mm)" << endl;
+  cout << "KP_Tipe" << "\t" << "KP_RAD" << "\t" << "DESC_RAD" << "\t" << "INLIER_RAD" << "\t" << "DIST(mm)" << endl;
 
   for(size_t t = 0; t < kpts_list_size; t++)
   {
@@ -100,7 +107,6 @@ int main(int argc, char** argv)
         {
           for(size_t h = 0; h < inliers_threshold_size; h++)
           {
-            double score = 0.0;
             double distance = 0.0;
             PointCloud<PointXYZRGB>::Ptr object_tf(new PointCloud<PointXYZRGB>);
             PointCloud<PointXYZRGB>::Ptr refined_object_tf(new PointCloud<PointXYZRGB>);
@@ -144,13 +150,26 @@ int main(int argc, char** argv)
               thread1.join();
               thread2.join();
 
-              computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
-                                       scene_keypoints,object_keypoints,
-                                       scene_features,object_features,
-                                       correspondences, filtered_correspondences,
-                                       ransac_tf,object_tf,object_cloud_resolution,
-                                       distance,v_kpts_radius_search[i], v_desc_radius_search[j],
-                                       v_inliers_threshold[h],show_params, show_viewers);
+              if(argc > 3)
+              {
+                computeFeatureDescriptor(v_keypoints_list[t],ground_truth_name,features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+                                         scene_keypoints,object_keypoints,
+                                         scene_features,object_features,
+                                         correspondences, filtered_correspondences,
+                                         ransac_tf,object_tf,object_cloud_resolution,
+                                         distance,v_kpts_radius_search[i], v_desc_radius_search[j],
+                                         v_inliers_threshold[h],show_params, show_viewers);
+              }
+              else
+              {
+                computeFeatureDescriptor(v_keypoints_list[t],features_descriptor,raw_scene_cloud,scene_cloud,object_cloud,
+                                         scene_keypoints,object_keypoints,
+                                         scene_features,object_features,
+                                         correspondences, filtered_correspondences,
+                                         ransac_tf,object_tf,object_cloud_resolution,
+                                         distance,v_kpts_radius_search[i], v_desc_radius_search[j],
+                                         v_inliers_threshold[h],show_params, show_viewers);
+              }
 
               delete features_descriptor;
             }

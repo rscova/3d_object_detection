@@ -1,0 +1,181 @@
+clear;clc;close all
+load('wks_cshot.mat');
+
+
+choose = 'susan';
+% choose = 'iss';
+% choose = 'harris3D';
+
+piggy_kpts_types = cshotpiggyicp{:,{'KP_Tipe'}};
+piggy_dist_mm = cshotpiggyicp{:,{'DISTmm'}};
+
+plant_kpts_types = cshotplanticp{:,{'KP_Tipe'}};
+plant_dist_mm = cshotplanticp{:,{'DISTmm'}};
+
+mug_kpts_types = cshotmugicp{:,{'KP_Tipe'}};
+mug_dist_mm = cshotmugicp{:,{'DISTmm'}};
+
+plc_kpts_types = cshotmugicp{:,{'KP_Tipe'}};
+plc_dist_mm = cshotplcicp{:,{'DISTmm'}};
+
+for i = 1:length(dist_mm_icp)
+    if piggy_dist_mm(i,1) > 10000
+        piggy_dist_mm(i,1) = NaN;
+    end
+    if plant_dist_mm(i,1) > 10000
+        plant_dist_mm(i,1) = NaN;
+    end
+    if mug_dist_mm(i,1) > 10000
+        mug_dist_mm(i,1) = NaN;
+    end
+    if plc_dist_mm(i,1) > 10000
+        plc_dist_mm(i,1) = NaN;
+    end
+end
+
+
+
+%% iss
+clc;
+piggy_iss_index = find(piggy_kpts_types == 'iss');
+plant_iss_index = find(plant_kpts_types == 'iss');
+mug_iss_index = find(mug_kpts_types == 'iss');
+plc_iss_index = find(plc_kpts_types == 'iss');
+
+piggy_iss_dist = (piggy_dist_mm(piggy_iss_index(1,1):piggy_iss_index(length(piggy_iss_index),1),1));
+plant_iss_dist = (plant_dist_mm(plant_iss_index(1,1):plant_iss_index(length(plant_iss_index),1),1));
+mug_iss_dist = (mug_dist_mm(mug_iss_index(1,1):mug_iss_index(length(mug_iss_index),1),1));
+plc_iss_dist = (plc_dist_mm(plc_iss_index(1,1):plc_iss_index(length(plc_iss_index),1),1));
+
+piggy_iss_mid_dist = media(piggy_iss_dist);
+plant_iss_mid_dist = media(plant_iss_dist);
+mug_iss_mid_dist = media(mug_iss_dist);
+plc_iss_mid_dist = media(plc_iss_dist);
+
+piggy_iss_index_mid_dist = find(piggy_iss_dist <= piggy_iss_mid_dist + 0.00001);  % Ese 0.00001 evita errores
+plant_iss_index_mid_dist = find(plant_iss_dist <= plant_iss_mid_dist + 0.00001);
+mug_iss_index_mid_dist = find(mug_iss_dist <= mug_iss_mid_dist + 0.00001);
+plc_iss_index_mid_dist = find(plc_iss_dist <= plc_iss_mid_dist + 0.00001);
+
+
+iss_min_dist = 1000;
+iss_min_index_dist = 0;
+for i = 1:length(piggy_iss_index_mid_dist)
+    find_piggy_iss_index = piggy_iss_index_mid_dist(i,1);
+    find_plant_iss_index = find(plant_iss_index_mid_dist == find_piggy_iss_index);
+    find_mug_iss_index = find(mug_iss_index_mid_dist == find_piggy_iss_index);
+    find_plc_iss_index = find(plc_iss_index_mid_dist == find_piggy_iss_index);
+    
+    if(~isempty(find_plant_iss_index) && ~isempty(find_mug_iss_index) && ~isempty(find_plc_iss_index))
+        iss_dist = (piggy_iss_dist(find_piggy_iss_index,1)+plant_iss_dist(find_piggy_iss_index,1)+mug_iss_dist(find_piggy_iss_index,1)+plc_iss_dist(find_piggy_iss_index,1))/4;
+        if iss_dist < iss_min_dist
+            iss_min_dist = iss_dist;
+            iss_min_index_dist = find_piggy_iss_index;
+        end
+    end
+end
+
+iss_min_dist
+iss_min_index_dist
+
+piggy_iss_dist(iss_min_index_dist,1)
+plant_iss_dist(iss_min_index_dist,1)
+mug_iss_dist(iss_min_index_dist,1)
+plc_iss_dist(iss_min_index_dist,1)
+
+
+%% susan
+clc;
+piggy_susan_index = find(piggy_kpts_types == 'susan');
+plant_susan_index = find(plant_kpts_types == 'susan');
+mug_susan_index = find(mug_kpts_types == 'susan');
+plc_susan_index = find(plc_kpts_types == 'susan');
+
+piggy_susan_dist = (piggy_dist_mm(piggy_susan_index(1,1):piggy_susan_index(length(piggy_susan_index),1),1));
+plant_susan_dist = (plant_dist_mm(plant_susan_index(1,1):plant_susan_index(length(plant_susan_index),1),1));
+mug_susan_dist = (mug_dist_mm(mug_susan_index(1,1):mug_susan_index(length(mug_susan_index),1),1));
+plc_susan_dist = (plc_dist_mm(plc_susan_index(1,1):plc_susan_index(length(plc_susan_index),1),1));
+
+piggy_susan_mid_dist = media(piggy_susan_dist);
+plant_susan_mid_dist = media(plant_susan_dist);
+mug_susan_mid_dist = media(mug_susan_dist);
+plc_susan_mid_dist = media(plc_susan_dist);
+
+piggy_susan_index_mid_dist = find(piggy_susan_dist <= piggy_susan_mid_dist + 0.00001);  % Ese 0.00001 evita errores
+plant_susan_index_mid_dist = find(plant_susan_dist <= plant_susan_mid_dist + 0.00001);
+mug_susan_index_mid_dist = find(mug_susan_dist <= mug_susan_mid_dist + 0.00001);
+plc_susan_index_mid_dist = find(plc_susan_dist <= plc_susan_mid_dist + 0.00001);
+
+
+susan_min_dist = 1000;
+susan_min_index_dist = 1000;
+for i = 1:length(piggy_susan_index_mid_dist)
+    find_piggy_susan_index = piggy_susan_index_mid_dist(i,1);
+    find_plant_susan_index = find(plant_susan_index_mid_dist == find_piggy_susan_index);
+    find_mug_susan_index = find(mug_susan_index_mid_dist == find_piggy_susan_index);
+    find_plc_susan_index = find(plc_susan_index_mid_dist == find_piggy_susan_index);
+    
+    if(~isempty(find_plant_susan_index) && ~isempty(find_mug_susan_index) && ~isempty(find_plc_susan_index))
+        susan_dist = (piggy_susan_dist(find_piggy_susan_index,1)+plant_susan_dist(find_piggy_susan_index,1)+mug_susan_dist(find_piggy_susan_index,1)+plc_susan_dist(find_piggy_susan_index,1))/4;
+        if susan_dist < susan_min_dist
+            susan_min_dist = susan_dist;
+            susan_min_index_dist = find_piggy_susan_index;
+        end
+    end
+end
+
+susan_min_dist
+susan_min_index_dist
+
+piggy_susan_dist(susan_min_index_dist,1)
+plant_susan_dist(susan_min_index_dist,1)
+mug_susan_dist(susan_min_index_dist,1)
+plc_susan_dist(susan_min_index_dist,1)
+
+%% harris3D
+clc;
+piggy_harris3D_index = find(piggy_kpts_types == 'harris3D');
+plant_harris3D_index = find(plant_kpts_types == 'harris3D');
+mug_harris3D_index = find(mug_kpts_types == 'harris3D');
+plc_harris3D_index = find(plc_kpts_types == 'harris3D');
+
+piggy_harris3D_dist = (piggy_dist_mm(piggy_harris3D_index(1,1):piggy_harris3D_index(length(piggy_harris3D_index),1),1));
+plant_harris3D_dist = (plant_dist_mm(plant_harris3D_index(1,1):plant_harris3D_index(length(plant_harris3D_index),1),1));
+mug_harris3D_dist = (mug_dist_mm(mug_harris3D_index(1,1):mug_harris3D_index(length(mug_harris3D_index),1),1));
+plc_harris3D_dist = (plc_dist_mm(plc_harris3D_index(1,1):plc_harris3D_index(length(plc_harris3D_index),1),1));
+
+piggy_harris3D_mid_dist = media(piggy_harris3D_dist);
+plant_harris3D_mid_dist = media(plant_harris3D_dist);
+mug_harris3D_mid_dist = media(mug_harris3D_dist);
+plc_harris3D_mid_dist = media(plc_harris3D_dist);
+
+piggy_harris3D_index_mid_dist = find(piggy_harris3D_dist <= piggy_harris3D_mid_dist + 0.00001);
+plant_harris3D_index_mid_dist = find(plant_harris3D_dist <= plant_harris3D_mid_dist + 0.00001);
+mug_harris3D_index_mid_dist = find(mug_harris3D_dist <= mug_harris3D_mid_dist + 0.00001);
+plc_harris3D_index_mid_dist = find(plc_harris3D_dist <= plc_harris3D_mid_dist + 0.00001);
+
+
+harris3D_min_dist = 1000;
+harris3D_min_index_dist = 0;
+for i = 1:length(piggy_harris3D_index_mid_dist)
+    find_piggy_harris3D_index = piggy_harris3D_index_mid_dist(i,1);
+    find_plant_harris3D_index = find(plant_harris3D_index_mid_dist == find_piggy_harris3D_index);
+    find_mug_harris3D_index = find(mug_harris3D_index_mid_dist == find_piggy_harris3D_index);
+    find_plc_harris3D_index = find(plc_harris3D_index_mid_dist == find_piggy_harris3D_index);
+    
+    if(~isempty(find_plant_harris3D_index) && ~isempty(find_mug_harris3D_index) && ~isempty(find_plc_harris3D_index))
+        harris3D_dist = (piggy_harris3D_dist(find_piggy_harris3D_index,1)+plant_harris3D_dist(find_piggy_harris3D_index,1)+mug_harris3D_dist(find_piggy_harris3D_index,1)+plc_harris3D_dist(find_piggy_harris3D_index,1))/4;
+        if harris3D_dist < harris3D_min_dist
+            harris3D_min_dist = harris3D_dist;
+            harris3D_min_index_dist = find_piggy_harris3D_index;
+        end
+    end
+end
+
+harris3D_min_dist
+harris3D_min_index_dist
+
+piggy_harris3D_dist(harris3D_min_index_dist,1)  % 21 -> 396
+plant_harris3D_dist(harris3D_min_index_dist,1)
+mug_harris3D_dist(harris3D_min_index_dist,1)
+plc_harris3D_dist(harris3D_min_index_dist,1)

@@ -10,10 +10,8 @@
 using namespace std;
 using namespace pcl;
 
-
 #define STRUCT_DESCRIPTOR
 //#define SHAPE_CONTEXT
-
 
 int readCloud(const PointCloud<PointXYZRGB>::Ptr& cloud, string name)
 {
@@ -115,6 +113,97 @@ double cloudDistance(PointCloud<PointXYZRGB>::Ptr& input_cloud,
 }
 
 template<typename DescriptorType, typename CloudType>
+void computeFeatureDescriptor(string kpt_name, DescriptorType& features_descriptor,
+                              PointCloud<PointXYZRGB>::Ptr& raw_scene_cloud,
+                              PointCloud<PointXYZRGB>::Ptr& scene_cloud,
+                              PointCloud<PointXYZRGB>::Ptr& object_cloud,
+                              PointCloud<PointXYZRGB>::Ptr& scene_keypoints,
+                              PointCloud<PointXYZRGB>::Ptr& object_keypoints,
+                              CloudType& scene_features,
+                              CloudType& object_features,
+                              CorrespondencesPtr& correspondences,
+                              CorrespondencesPtr& filtered_correspondences,
+                              Eigen::Matrix4f& ransac_tf,
+                              PointCloud<PointXYZRGB>::Ptr& object_tf,
+                              double& object_cloud_resolution,
+                              double& distance,
+                              double& kpts_radius_search,
+                              double& desc_radius_search,
+                              double& inlier_threshold,
+                              bool show_params,
+                              bool show_viewers)
+{
+  features_descriptor->findCorrespondences(scene_features,object_features,correspondences);
+
+  PointCloud<PointXYZRGB>::Ptr refined_output(new PointCloud<PointXYZRGB>);
+  Eigen::Matrix4f refined_tf;
+
+  if(correspondences->size() > 2)
+  {
+    features_descriptor->filterCorrespondences(scene_keypoints,object_keypoints,correspondences,filtered_correspondences,ransac_tf);
+    transformPointCloud(*object_cloud, *object_tf, ransac_tf);
+    features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*1.5);
+
+    distance = cloudDistance(object_tf,scene_cloud,object_cloud_resolution);
+
+  }
+  else
+    distance = 10000;
+
+  if(show_params)
+  {
+    cout << kpt_name << "\t" << kpts_radius_search << "\t" << desc_radius_search << "\t";
+    cout << inlier_threshold << "\t" << distance*1000 << endl;
+
+    /*cout << "Keypoints Radius: " << fixed << kpts_radius_search << endl;
+    cout << "Descriptor Radius: " << desc_radius_search << endl;
+    cout << "Inlier Threshold: " << inlier_threshold << endl;
+    cout << "Middle distance: "  << setprecision(15) << distance << endl << endl;
+
+    cout <<"Scene input Cloud: " << scene_cloud->size() << endl;
+    cout <<"Object input Cloud: " << object_cloud->size() << endl;
+    cout <<"Scene keypoints: " << scene_keypoints->size() << endl;
+    cout <<"Object keypoints: " << object_keypoints->size() << endl;
+    cout << "Scene Features: " << scene_features->points.size() << endl;
+    cout << "Object Features: " << object_features->points.size() << endl;
+    cout << "Correspondences: " << correspondences->size() << endl;
+
+    if(correspondences->size() > 2)
+    {
+      cout << "Filtered Correspondences: " << filtered_correspondences->size() << endl;
+      cout << "Transform matrix:" << endl << ransac_tf << endl;
+    }
+    else
+      cout << "Not correspondences enought" << endl;
+    cout << "----------------------------------------" << endl << endl;*/
+  }
+
+  if(show_viewers)
+  {
+    visualization::PCLVisualizer  viewer3("Correspondence Viewer");
+    viewer3.setBackgroundColor (0, 0, 0);
+    viewer3.addPointCloud<PointXYZRGB> (scene_cloud, "Cloud 1");
+    viewer3.addPointCloud<PointXYZRGB> (object_cloud, "Cloud 2");
+    viewer3.addCorrespondences<PointXYZRGB> (object_keypoints,scene_keypoints,(*filtered_correspondences),"Correspondences");
+
+    visualization::PCLVisualizer viewer2("Filtered KeyPoints viewer");
+    viewer2.setBackgroundColor (0.0, 0.0, 0.0);
+    viewer2.addPointCloud(scene_cloud,"Cloud 1");
+    visualization::PointCloudColorHandlerCustom<PointXYZRGB> single_color(object_tf, 0, 255, 0);
+    viewer2.addPointCloud (object_tf, single_color, "Cloud 2");
+
+    while (!viewer2.wasStopped() and !viewer3.wasStopped())
+    {
+      viewer2.spinOnce();
+      viewer3.spinOnce();
+    }
+
+    //pcl::io::savePCDFileASCII ("../ground_truth/mug_ground_truth.pcd", *object_tf);
+  }
+}
+
+
+template<typename DescriptorType, typename CloudType>
 void computeFeatureDescriptor(string kpt_name, string ground_truth_name, DescriptorType& features_descriptor,
                               PointCloud<PointXYZRGB>::Ptr& raw_scene_cloud,
                               PointCloud<PointXYZRGB>::Ptr& scene_cloud,
@@ -142,11 +231,9 @@ void computeFeatureDescriptor(string kpt_name, string ground_truth_name, Descrip
 
   if(correspondences->size() > 2)
   {
-    double score;
     features_descriptor->filterCorrespondences(scene_keypoints,object_keypoints,correspondences,filtered_correspondences,ransac_tf);
     transformPointCloud(*object_cloud, *object_tf, ransac_tf);
-    features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*1.5,score);
-
+    features_descriptor->icpAlignment(object_tf,scene_keypoints, ransac_tf, object_cloud_resolution*1.5);
 
     PointCloud<PointXYZRGB>::Ptr object_ground_truth(new PointCloud<PointXYZRGB>);
     vector<int> index;

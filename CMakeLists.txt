@@ -4,9 +4,9 @@ project(MYPROJECT)
 
 find_package(PCL 1.7 REQUIRED)
 FIND_PACKAGE(Boost COMPONENTS program_options REQUIRED)
-find_package(CUDA)
+#find_package(CUDA)
 
-INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
+#INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
 include_directories(${PCL_INCLUDE_DIRS})
 
 link_directories(${PCL_LIBRARY_DIRS})
@@ -21,8 +21,10 @@ set (CMAKE_CXX_FLAGS_RELEASE "-O3")
 #cuda_add_executable (evaluation evaluation.cpp)
 
 add_executable (evaluation src/evaluation.cpp)
+add_executable (escena_final src/escena_final.cpp)
 
 #target_link_libraries (planar_segmentation ${PCL_LIBRARIES})
 #target_link_libraries (find_keypoints ${PCL_LIBRARIES})
 #target_link_libraries (find_features ${PCL_LIBRARIES})
 target_link_libraries (evaluation ${PCL_LIBRARIES})
+target_link_libraries (escena_final ${PCL_LIBRARIES})

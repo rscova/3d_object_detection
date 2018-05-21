@@ -159,12 +159,12 @@ class Descriptors
                                CorrespondencesPtr correspondences, CorrespondencesPtr& filtered_correspondences,
                                Eigen::Matrix4f& transformation);
 
-    void icpAlignment(PointCloudRGB::Ptr aligned_source, PointCloudRGB::Ptr target_points,
+    /*void icpAlignment(PointCloudRGB::Ptr aligned_source, PointCloudRGB::Ptr target_points,
                       PointCloudRGB::Ptr& refined_output, Eigen::Matrix4f initial_tf,
-                      Eigen::Matrix4f& refined_tf, double distance, double& score);
+                      Eigen::Matrix4f& refined_tf, double distance);*/
 
     void icpAlignment(PointCloudRGB::Ptr& aligned_source, PointCloudRGB::Ptr target_points,
-                      Eigen::Matrix4f& initial_tf, double distance, double& score);
+                      Eigen::Matrix4f& initial_tf, double distance);
 
 };
 
@@ -320,13 +320,13 @@ void Descriptors<FeatureType>::filterCorrespondences(PointCloudRGB::Ptr scene_ke
   transformation = rejector.getBestTransformation();
 }
 
-template<typename FeatureType>
+/*template<typename FeatureType>
 void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr aligned_source,
                                             PointCloudRGB::Ptr target_points,
                                             PointCloudRGB::Ptr& refined_output,
                                             Eigen::Matrix4f initial_tf,
                                             Eigen::Matrix4f& refined_tf,
-                                            double distance, double& score)
+                                            double distance)
 {
   IterativeClosestPoint<PointRGB, PointRGB> icp;
   icp.setMaxCorrespondenceDistance (distance);
@@ -340,12 +340,12 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr aligned_source,
   icp.align (*refined_output);
 
   refined_tf = icp.getFinalTransformation () * initial_tf;
-  score = icp.getFitnessScore();
-}
+  //score = icp.getFitnessScore();
+}*/
 
 template<typename FeatureType>
 void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr& aligned_source, PointCloudRGB::Ptr target_points,
-                                            Eigen::Matrix4f& initial_tf, double distance, double& score)
+                                            Eigen::Matrix4f& initial_tf, double distance)
 {
   IterativeClosestPoint<PointRGB, PointRGB> icp;
   //icp.setMaxCorrespondenceDistance (distance);
@@ -359,7 +359,7 @@ void Descriptors<FeatureType>::icpAlignment(PointCloudRGB::Ptr& aligned_source, 
   icp.align (*aligned_source);
 
   initial_tf = icp.getFinalTransformation () * initial_tf;
-  score = icp.getFitnessScore();
+  //score = icp.getFitnessScore();
 }
 
 
